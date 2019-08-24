@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes monsterA{
+    from {
+        transform: rotateY(0);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.main{
+    background-color: rgb(32, 221, 105);
+    padding: 8px;
+}
+
+.monster > img{
+    animation: monsterA 1s infinite linear;
+}
